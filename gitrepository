@@ -1,0 +1,13 @@
+tages:
+   - build
+   - test
+   - push
+   - deploy
+
+build_job:
+    stage: build
+    script:
+        - docker build -t nodeapp:latest
+    tags:
+        - dev
+
