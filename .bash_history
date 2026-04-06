@@ -59,3 +59,19 @@ exit
 sudo curl -L --output /usr/local/bin/gitlab-runner https://gitlab-runner-downloads.s3.amazonaws.com/latest/binaries/gitlab-runner-linux-amd64
 gitlab-runner register  --url https://gitlab.com  --token glrt-fpPKa7DJxztJroa6Nn9zCGM6MQpvOjEKcDoxYzd3ZnoKdDozCnU6bG40bGEc.01.1o1q024ig
 gitlab-runner run
+git status
+ls
+git init
+git status
+git add gitlab
+git status
+git rm --cached gitlab
+git status
+git rm -r --cached gitlab
+git rm -f --cached gitlab
+git rm -r -f --cached gitlab
+git status
+git add .
+git status
+git commit -m "added testing file"
+git status
